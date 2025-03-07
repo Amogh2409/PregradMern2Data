@@ -1,0 +1,60 @@
+MERN - Mongo
+NO SQL ->  Rows and colums
+
+"MongoDB is a NoSQL database that stores data in JSON-like documents."
+
+
+
+Key concepts: Collections, Documents, Schemas.
+
+Advantages:
+
+Scalable and flexible.
+No need for predefined schemas (unlike SQL databases).
+Handles large volumes of data efficiently.
+
+
+create table tablename (row1, id, dob, number);
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "age": 25
+}
+
+{
+  "name": "John Doe",
+  "number": 346983467590
+  "age": 25
+}
+
+
+Express JS - Backend framework
+"Express.js is a lightweight and fast Node.js framework for building web applications and APIs."
+
+form - details - submit -> upload - db
+
+Netflix - movie - db via api (movie)
+
+fetch('http://localhost:5000/data')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+
+
+
+React (Frontend) sends a request to the backend.
+
+Express (Backend) receives the request and interacts with MongoDB.
+
+MongoDB fetches or stores data and sends a response.
+
+Express processes the response and sends it back to React.
+
+React updates the UI based on the response.
+
+
+3 class -> per week (70 min each) - for this week (1hour 45 min) 6pm 
+
+
+2 class -> per week (105 min each) -> saturday sunday from next week
