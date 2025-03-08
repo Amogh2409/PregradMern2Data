@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0073e6, #005bb5);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Navigation */
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #00aaff;
+        }
+        
+        /* Main Content */
+        .container {
+            display: flex;
+            max-width: 1100px;
+            margin: 30px auto;
+            gap: 20px;
+        }
+        
+        /* Section */
+        section {
+            flex: 2;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #0073e6;
+        }
+        
+        /* Aside */
+        aside {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        aside h3 {
+            color: #0073e6;
+        }
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+        aside ul li {
+            padding: 8px 0;
+        }
+        aside ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        aside ul li a:hover {
+            color: #0073e6;
+        }
+        
+        /* Article */
+        article {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        article h2 {
+            color: #0073e6;
+        }
+        
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Beautiful Webpage</h1>
+        <p>Mastering HTML & CSS Like a Pro! 🚀</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Section -->
+        <section>
+            <h2>HTML Basics</h2>
+            <p>HTML stands for <strong>HyperText Markup Language</strong>. It is used to create webpages.</p>
+
+            <h3>Text Formatting Examples</h3>
+            <p><b>Bold Text</b> vs. <strong>Strong Text</strong></p>
+            <p><i>Italic Text</i> vs. <em>Emphasized Text</em></p>
+            <p>H<sub>2</sub>O (Subscript) and X<sup>2</sup> (Superscript)</p>
+            <hr>
+
+            <h3>Code Example</h3>
+            <pre>
+            &lt;p&gt;This is a paragraph in HTML.&lt;/p&gt;
+            </pre>
+
+            <h3>Line Break Example</h3>
+            <p>This is the first line.<br>This is the second line.</p>
+        </section>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">HTML Basics</a></li>
+                <li><a href="#">CSS Introduction</a></li>
+                <li><a href="#">JavaScript Guide</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <!-- Article Section -->
+    <article>
+        <h2>Latest News</h2>
+        <p>Web development is evolving rapidly. Stay updated!</p>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 MyWebsite | Designed with ❤️ in HTML & CSS</p>
+    </footer>
+
+</body>
+</html>

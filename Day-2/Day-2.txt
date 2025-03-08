@@ -1,0 +1,83 @@
+
+Intro  (Structure and working)
+Text MarkUp h1 to h6 , p , pre , br , hr
+Text Formatting bold , strong , italics , em , sub ,sup
+Semantic Tags header, footer , nav , article , section , aside
+
+
+Text MarkUp h1 to h6 , p , pre , br , hr
+
+
+h1-h6  (Headings)
+Headings are used to define the structure of a webpage, ranging from <h1> (largest) to <h6> (smallest).
+
+
+p (paragraph)
+this is used to write much larger data or paragraph in it
+
+pre (Preformatted Text)
+The <pre> tag is used to display text exactly as written, preserving spaces and line breaks.
+Data -> abs > xyz
+
+
+br (line break)
+this tag inserts a line break 
+
+hr (horizontal rule)
+The <hr> tag creates a horizontal line to separate sections
+
+
+
+Text Formatting bold , strong , italics , em , sub ,sup
+
+bold 
+The <b> tag makes text bold but does not add extra importance.
+
+The <strong> tag makes text bold and indicates strong importance.
+<p>This is a <strong>very important</strong> message.</p>
+
+
+The <i> tag makes text italicized but does not add extra emphasis.
+The <em> tag makes text italicized and adds emphasis to it.
+
+
+The <sub> tag displays text below the normal text line (subscript).
+h2o
+
+
+The <sup> tag displays text above the normal text line (superscript).
+
+
+<b>	        Bold text (no extra importance)
+<strong>	Bold and important text
+<i> 	    Italic text (no extra emphasis)
+<em>	    Italic and emphasized text
+<sub>	    Subscript (text below baseline)
+<sup>	    Superscript (text above baseline)
+
+
+
+Semantic Tags header, footer , nav , article , section , aside
+
+
+header -> heading title 
+footer -> copyright data 
+nav -> navigational bar
+
+
+The <header> tag represents introductory content, such as a logo, navigation menu, or heading.
+
+The <footer> tag contains copyright information, links, and contact details at the bottom.
+
+The <nav> tag contains main navigation links of the website.
+
+The <article> tag contains self-contained content, such as blog posts, news articles, or forum posts.
+
+he <section> tag is used to group related content within a webpage.
+
+The <aside> tag contains extra information like ads, related links, or side notes.
+
+web page properly structure
+✅ Improves SEO – Helps search engines understand content better
+✅ Enhances Accessibility – Assists screen readers in navigating the page
+✅ Better Readability – Code is easier to understand for developers
