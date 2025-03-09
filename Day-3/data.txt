@@ -1,4 +1,24 @@
-HTML Lists unordered , ordered , description
+HTML Lists unordered , ordered , description lists
 HTML Links anchor tag , Absolute Url, Relative Url
 HTML Images : img , picture
 HTML Tables
+
+ 
+
+
+
+ Create an HTML page (index.html) that includes:
+
+A header with the title of your webpage.
+A navigation bar with links (use # as placeholder).
+An article with some text that includes:
+Headings (h1-h6)
+Paragraphs (p)
+Line breaks (br), horizontal rules (hr)
+Text formatting (b, strong, i, em, sub, sup)
+A section that contains:
+An unordered list (topics you learned).
+An ordered list (steps to create an HTML page).
+A description list (explain HTML & CSS).
+An aside with a fun fact about HTML.
+A footer with your name & date.
