@@ -1,0 +1,15 @@
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: red;
+}
+.heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 10;
+  color: aqua;
+  text-decoration: double;
+}
+#heading{
+    color: aquamarine;
+}
