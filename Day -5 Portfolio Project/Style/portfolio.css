@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #1e1e1e, #252525);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.2);
+}
+
+header h1 {
+    color: #0ff;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff00ff;
+}
+
+/* Portfolio Section */
+.portfolio-intro {
+    margin: 50px 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.project {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.2);
+    text-align: left;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(255, 0, 255, 0.5);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-details h3 {
+    color: #0ff;
+    margin-top: 10px;
+}
+
+.project-details p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.project-details a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ff00ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project-details a:hover {
+    color: #0ff;
+}
+
+/* Tech Stack Section */
+.tech-stack {
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.tech-stack h2 {
+    font-size: 2rem;
+    color: #ff00ff;
+}
+
+.tech-stack ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.tech-stack li {
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: linear-gradient(90deg, #1e1e1e, #252525);
+    color: #e0e0e0;
+    font-size: 1rem;
+    box-shadow: 0px -4px 10px rgba(0, 255, 255, 0.2);
+}
