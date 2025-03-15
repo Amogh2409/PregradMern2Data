@@ -1,0 +1,28 @@
+forms
+CSS
+
+
+A form in HTML is created using the <form> tag. It contains various input fields wrapped inside it.
+
+action	        Specifies where to send form data (e.g., a PHP file, API)
+method	        Defines how data is sent: GET (visible in URL) or POST (hidden & secure)
+target	        Opens response in _self (default), _blank (new tab), _parent, _top
+autocomplete	Enables/disables autofill (on / off)
+novalidate	    Disables HTML5 validation
+
+
+
+3️⃣ Create a feedback form that includes:
+
+A name input field
+A text area for comments
+A rating system (1 to 5) using a dropdown
+A "Submit Feedback" button
+
+
+4️⃣ Build a job application form with:
+
+Name and email fields
+Resume upload (<input type="file">)
+A textarea for "Why should we hire you?"
+A "Submit Application" button
