@@ -1,15 +1,191 @@
-h2 {
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+header{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1{
+  margin-bottom: 1rem;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover{
+  background-color: #555;
+}
+
+main{
+  width: 80%;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section{
+  margin-bottom: 2rem;
+}
+
+section h2{
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ddd;
+}
+article{
+  margin-bottom: 1rem ;
+}
+
+article h3{
+  margin-bottom: 0.5rem;
+}
+article p, article ul, article ol, article blockquote, article dl, article pre {
+  margin-bottom: 1rem;
+}
+
+blockquote{
+  margin: 1rem 0;
+  font-style: italic;
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+}
+
+section article ul,  section article ol{
+  margin-left: 2rem;
+}
+
+
+img, video, audio{
+  display: block;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+
+div{
+  margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    width: 100%;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+caption{
+  padding: 10px;
+  text-align: left;
   font-weight: bold;
-  text-decoration: underline;
-  color: red;
 }
-.heading {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 100;
-  font-size: 10;
-  color: aqua;
-  text-decoration: double;
+span{
+  background-color: lightyellow;
+  padding: 3px;
+  border-radius: 3px;
 }
-#heading{
-    color: aquamarine;
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+pre {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid #eee;
+}
+
+code {
+  font-family: monospace;
+}
+hr{
+  border: 1px solid #eee;
+  margin: 1rem 0;
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+form input, form textarea, form select {
+width: 100%;
+padding: 0.5rem;
+margin-bottom: 1rem;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+
+form textarea{
+  resize: vertical;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #45a049;
 }

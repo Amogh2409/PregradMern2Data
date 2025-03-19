@@ -3,17 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction to CSS</title>
+    <title>HTML Structure</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 class="heading">
-        This is about CSS
-    </h2>
 
-    <h2>1</h2>
-    <h2>2</h2>
-    <h2 id="heading">2</h2>
-    <h2>4</h2>
+    <header>
+        <h1 class="heading">Welcome to My Page</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Article Section</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is a paragraph inside an article. It contains <strong>strong</strong> text and <em>emphasized</em> text. You can also use <mark>highlighted</mark> text.</p>
+                <p>Here is a blockquote:</p>
+                <blockquote>
+                    <p>This is a blockquote. It is used to quote a large section of text.</p>
+                    <cite>Source: Example.com</cite>
+                </blockquote>
+                <p>Here's a list:</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                <p>And an ordered list:</p>
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+
+                <p>Here's some code:</p>
+                <pre><code>function example() {
+    console.log("Hello, world!");
+}</code></pre>
+                <p>Here is a line of inline code: <code>let x = 10;</code></p>
+
+                <p>Here is a horizontal rule:</p>
+                <hr>
+
+                <p>Here is a definition list:</p>
+                <dl>
+                    <dt>Term 1</dt>
+                    <dd>Definition 1</dd>
+                    <dt>Term 2</dt>
+                    <dd>Definition 2</dd>
+                </dl>
+
+            </article>
+            <aside>
+                <h4>Related Links</h4>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Form Section</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+                <label for="select">Select Option:</label>
+                <select id="select" name="select">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select><br><br>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="number">Number:</label>
+                <input type="number" id="number" name="number" min="1" max="10"><br><br>
+
+                <label for="file">Choose File:</label>
+                <input type="file" id="file" name="file"><br><br>
+
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox" name="checkbox" value="checked"><br><br>
+
+                <label for="radio1">Radio 1:</label>
+                <input type="radio" id="radio1" name="radio" value="radio1">
+                <label for="radio2">Radio 2:</label>
+                <input type="radio" id="radio2" name="radio" value="radio2"><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section>
+            <h2>Table Section</h2>
+            <table>
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                    </tr>
+                    <tr>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Footer</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Image and Video Section</h2>
+            <img src="placeholder-image.jpg" alt="Placeholder Image" width="300">
+
+            <video width="320" height="240" controls>
+                <source src="placeholder-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <audio controls>
+                <source src="placeholder-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+        
+        <section>
+          <h2>Span and Div section</h2>
+          <div>This is a div, a block level element. <span>This is a span, an inline element.</span> and another span.</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
 </body>
 </html>
