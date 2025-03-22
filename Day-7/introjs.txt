@@ -1,0 +1,13 @@
+html - > 
+
+
+human body -> bones-> muscles -> movement
+
+html -> bones
+css -> muscles, skin
+js -> movement communicate
+
+
+JavaScript (JS) is a programming language used to make web pages interactive
+It runs in browsers and on servers (Node.js).
+
