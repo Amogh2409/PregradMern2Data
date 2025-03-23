@@ -1,0 +1,26 @@
+Takes two numbers.
+If both numbers are positive, multiply them using the *= operator.
+Otherwise, set the result to 0.
+Print the final result
+
+
+Takes two values (they can be numbers or strings).
+Compares them using the === operator.
+If they are equal and of the same type, print "Same value and type".
+If they have the same value but different types, print "Same value but different type".
+Otherwise, print "Different values".
+
+
+Takes a number as input.
+If the number is divisible by both 3 and 5, print "FizzBuzz".
+If it's only divisible by 3, print "Fizz".
+If it's only divisible by 5, print "Buzz".
+Otherwise, print "Not divisible by 3 or 5".
+Use the ternary operator to solve this.
+
+
+
+
+
+Functions 
+Objects
