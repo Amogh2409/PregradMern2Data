@@ -1,0 +1,186 @@
+Functions
+and Objects
+
+Functions - are a block of code that is designed to perform a specific task (particular task)
+functions are only executed whenever it is called
+
+
+JS Function is defined with the Function keyword, follwed by a name, followed by parentheses ().
+(parameter)
+
+function javaScript(parameter1, parameter2, parameter3){
+    // code that will be exucuted
+    console.log("Function has been callled");
+}
+
+function -> calls it
+
+        -> when an  event occurs (when user clicks a button)
+        -> when it is called in a main Function
+        -> Automatically
+
+function Return
+
+function basic(a, b) { return a + b;}
+
+
+------------------------------------------------------------------------------------------------------
+
+                                            Objects in JS
+
+Objects -> House , car, animal
+
+objects - properties ( weight, colour)
+
+car -> properties -> Colour, weight, driving mode
+all objects -> have this but values can be different
+
+objects methods 
+
+Car -> Start, Stop
+
+Car.Start(), car.stop()
+
+car.drive(), car.brake()
+
+
+
+
+variables = box, jar -> which stores Data values
+
+let car = "BMW";
+
+Objects -> are also variables but objects can contain many values
+
+car (BMW, 500, white, 5series);
+
+
+const car = (type: "BMW", model:"500", color:"Black", topSpeed: "300");
+// it is common to declare objects with const keyword
+
+
+// Object literal
+// An Object literal is a list of Name:values pairs inside Curly braces{}
+
+{firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}
+
+
+new keyword -> Creates a new JS Object using new Object(), and then adds 4 properties
+
+const person = new Object();
+
+person.firstName = "";
+person.lastName = "";
+
+
+Objects in JS-> PHP (Associative arrays)
+Objects in JS-> Dictionaries in Python
+Objects in JS-> Hash tables in C
+Objects in JS-> Hash maps in Java
+Objects in JS-> Hashes in Ruby and Perl
+
+
+
+Objects are containers for Properties and Methods.
+Properties are named Values.
+Methods are Functions stored as Properties.
+Properties can be primitive values, functions, or even other objects.
+
+
+In JavaScript, almost "everything" is an object.
+
+Objects are objects
+Maths are objects
+Functions are objects
+Dates are objects
+Arrays are objects
+Maps are objects
+Sets are objects
+
+All JavaScript values, except primitives, are objects.
+
+Objects are Mutable ->  They are addressed by reference not by value
+if person is an object, the following will not create a copy of person.
+
+const x = person;
+
+The Object x is not a copy of person. The object x is person
+X -> value change  -> person value changes
+
+
+-----------------------------------------------------------------------------------------------------
+                            Accessing JavaScript Properties
+
+
+// objectName.property
+let age = person.age;
+
+//objectName["property"]
+let age = person["age"];
+
+
+                            Adding New Properties 
+
+person.nationality = "English";
+person.height = 6'2;
+
+                            Deleting Properties
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+delete person.age;
+
+delete person[age];
+
+delete -> 50 -> age
+that means after this line my whole object will no longer have the property age
+
+
+
+
+                                    Nested Objects
+
+myObj = {
+    name: "John",
+    age: 30,
+    myCars: {
+        car1: "BMW",
+        car2: "Volvo",
+        car3: "Audi"
+    }
+}
+
+myObj.myCars.car1
+myObj.myCars["car2"]
+myObj["myCars"]["car2"]
+
+
+
+
+Creating and Accessing Object Properties
+
+Task: Create an object named myPet with the following properties:
+name: "Buddy"
+type: "Dog"
+age: 3
+Then, print the pet's name to the console using dot notation.
+
+                                  Question 2
+
+Question 2: Adding and Modifying Object Properties
+
+Task: You have an object named myBook:
+
+const myBook = {
+    title: "JavaScript Basics",
+    author: "Beginner Coder"
+};
+
+Add a new property pages with the value 150 to the myBook object.
+Then change the author property to "Advanced Coder".
+Finally print the updated object to the console.
