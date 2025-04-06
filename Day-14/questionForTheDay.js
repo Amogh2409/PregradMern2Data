@@ -62,3 +62,12 @@ let operator = "+";
 // 10. Print price based on fruit
 let fruit = "apple";
 // Use switch to print: apple → ₹100, banana → ₹60, mango → ₹120
+
+
+//                         For Loops
+
+// 1. Print numbers from 1 to 10 using a for loop
+// 2. Print even numbers from 2 to 20
+// 3. Calculate sum of first 10 natural numbers
+// 4. Print multiplication table of 5
+// 5. Find the factorial of a given number

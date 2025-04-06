@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const correctPassword = "password123";
+        let userInput;
+        let attempts = 0;
+
+
+        do {
+            userInput = prompt("Enter password: ");
+            attempts++;
+            if (userInput === correctPassword) {
+                console.log("Login successful!");
+                break;
+            } else {
+                console.log(`Incorrect password. Try again. Attempts left: ${3 - attempts}`);
+            }
+        } while (attempts < 3);
+        if (userInput !== correctPassword) {
+            console.log("Too many attempts. Access denied.");
+        }
+    </script>
+</body>
+
+</html>

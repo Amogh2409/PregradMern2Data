@@ -1,8 +1,8 @@
 # Variables (var, let, const)
 # Data Types (String, Number, Boolean, Undefined, Null, Symbol, BigInt)
 # Operators (Arithmetic, Comparison, Logical, Ternary)
-Type Conversion & Coercion
-Control Flow (if, else, switch)
+# Type Conversion & Coercion
+# Control Flow (if, else, switch)
 Loops (for, while, do...while, for...in, for...of)
 # Functions (Declaration, Expression, Arrow)
 Parameters vs Arguments
