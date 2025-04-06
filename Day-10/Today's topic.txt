@@ -162,8 +162,6 @@ myObj["myCars"]["car2"]
 
 
 
-Creating and Accessing Object Properties
-
 Task: Create an object named myPet with the following properties:
 name: "Buddy"
 type: "Dog"

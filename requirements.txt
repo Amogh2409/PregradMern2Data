@@ -1,0 +1,24 @@
+# Variables (var, let, const)
+# Data Types (String, Number, Boolean, Undefined, Null, Symbol, BigInt)
+# Operators (Arithmetic, Comparison, Logical, Ternary)
+Type Conversion & Coercion
+Control Flow (if, else, switch)
+Loops (for, while, do...while, for...in, for...of)
+# Functions (Declaration, Expression, Arrow)
+Parameters vs Arguments
+Scope (Global, Function, Block)
+Hoisting
+Closures
+# The this keyword
+Call, Apply, Bind
+Arrays & Methods (map, filter, reduce, find, etc.)
+# Objects & Object Methods
+Destructuring (Arrays, Objects)
+Spread & Rest Operators
+Template Literals
+JSON (Stringify & Parse)
+Events & Event Handling
+Error Handling (try, catch, finally, throw)
+
+
+after completing theese we will create 3 vanilla js projects to practice theese concepts
