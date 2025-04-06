@@ -7,8 +7,8 @@
 # Functions (Declaration, Expression, Arrow)
 # Parameters vs Arguments
 # Scope (Global, Function, Block)
-Hoisting
-Closures
+# Hoisting
+# Closures
 # The this keyword
 Call, Apply, Bind
 Arrays & Methods (map, filter, reduce, find, etc.)
