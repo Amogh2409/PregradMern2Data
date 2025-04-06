@@ -71,3 +71,66 @@ let fruit = "apple";
 // 3. Calculate sum of first 10 natural numbers
 // 4. Print multiplication table of 5
 // 5. Find the factorial of a given number
+
+//                          While Loops
+
+// 1. Print numbers from 1 to 10 using a while loop
+// 2. Print even numbers from 1 to 20 using a while loop
+// 3. Calculate sum of first 10 natural numbers using a while loop
+// 4. Print multiplication table of 5 using a while loop
+// 5. Find the factorial of a given number using a while loop
+// 6. Reverse a number using a while loop
+
+//                         Do While Loops
+
+// 1. Print numbers from 1 to 10 using a do while loop
+// 2. Print even numbers from 1 to 20 using a do while loop
+// 3. Calculate sum of first 10 natural numbers using a do while loop
+// 4. Print multiplication table of 5 using a do while loop
+// 5. Find the factorial of a given number using a do while loop
+
+
+//                          for in loops
+
+// 1. Iterate over an array and print each element
+// 2. Iterate over an object and print key-value pairs
+// 3. Create an object and use for-in to print properties
+
+
+//                           for of loops
+
+// 1. Iterate over an array and print each element
+// 2. Iterate over a string and print each character
+// 3. Use for-of to iterate over a Set and print values
+// 4. Use for-of to iterate over a Map and print key-value pairs
+// 5. Use for-of to iterate over a NodeList and print elements
+
+
+
+// Output?
+function testScope() {
+    if (true) {
+      let secret = "hidden";
+      console.log(secret);
+    }
+    console.log(secret); // Will this line work?
+  }
+  testScope();
+
+
+
+//   Q3: Identify the scope:
+  let x1 = 5;
+
+  if (true) {
+    let y = 10;
+  }
+  
+  console.log(x1); // ?
+  console.log(y); // ?
+  
+
+  function demo() {
+    var a = 10;
+  }
+  console.log(a);  // Yes or No?

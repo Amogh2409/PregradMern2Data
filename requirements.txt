@@ -3,10 +3,10 @@
 # Operators (Arithmetic, Comparison, Logical, Ternary)
 # Type Conversion & Coercion
 # Control Flow (if, else, switch)
-Loops (for, while, do...while, for...in, for...of)
+# Loops (for, while, do...while, for...in, for...of)
 # Functions (Declaration, Expression, Arrow)
-Parameters vs Arguments
-Scope (Global, Function, Block)
+# Parameters vs Arguments
+# Scope (Global, Function, Block)
 Hoisting
 Closures
 # The this keyword

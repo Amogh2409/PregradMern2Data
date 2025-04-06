@@ -103,3 +103,22 @@ let name = "Amogh";
 for (let char of name) {
     console.log(char);
 }
+
+
+// Break and continue statements
+// Break: Exits the loop immediately
+// Continue: Skips the current iteration and moves to the next one
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        break; // Exits the loop when i is 5
+    }
+    console.log(i);
+}
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+        continue; // Skips the current iteration when i is 5
+    }
+    console.log(i);
+}
