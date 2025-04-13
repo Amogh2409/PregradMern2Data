@@ -10,11 +10,11 @@
 # Hoisting
 # Closures
 # The this keyword
-Call, Apply, Bind
-Arrays & Methods (map, filter, reduce, find, etc.)
+# Call, Apply, Bind
+# Arrays & Methods (map, filter, reduce, find, etc.)
 # Objects & Object Methods
 Destructuring (Arrays, Objects)
-Spread & Rest Operators
+Spread & Rest Operators  
 Template Literals
 JSON (Stringify & Parse)
 Events & Event Handling
@@ -22,3 +22,6 @@ Error Handling (try, catch, finally, throw)
 
 
 after completing theese we will create 3 vanilla js projects to practice theese concepts
+
+
+
