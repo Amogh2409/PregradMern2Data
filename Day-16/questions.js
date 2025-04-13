@@ -24,12 +24,12 @@ const students = [
 // 🔁 Use unshift() to add a new student at the beginning.
 
 // Create a summary object using reduce()
-{
-    totalStudents: 5,
-    passed: 3,
-    failed: 2,
-    averageMarks: 65.4
-}
+// {
+//     totalStudents: 5,
+//     passed: 3,
+//     failed: 2,
+//     averageMarks: 65.4
+// }
 
 const studentSummary = students.reduce((prev, student) => {
     prev.totalStudents += 1;    // Count total students
@@ -43,7 +43,8 @@ const studentSummary = students.reduce((prev, student) => {
         failed: 0,
         totalMarks: 0
     },
+)
 
-
-    studentSummary.averageMarks = studentSummary.totalMarks / studentSummary.totalStudents;
+    
+studentSummary.averageMarks = (studentSummary.totalMarks / studentSummary.totalStudents);
 
