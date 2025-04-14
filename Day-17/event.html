@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+<body>
+    <input type="text" name="" id="nameInput" placeholder="Enter your name">
+    <button id="mybtn">Click Me</button>
+    <script>
+        const btn = document.getElementById('mybtn');
+
+        btn.addEventListener('click', function() {
+            alert('Button was clicked!');
+            console.log('Button was clicked!');
+        });
+
+
+        const input = document.getElementById('nameInput');
+        input.addEventListener('input', function() {
+            console.log('Input value changed to: ' + input.value);
+        });
+
+        input.addEventListener('focus', function() {
+            console.log('Input field is focused!');
+        });
+        input.addEventListener('blur', function() {
+            console.log('Input field is blurred!');
+        });
+        input.addEventListener('keydown', function(event) {
+            console.log('Key pressed: ' + event.key);
+        });
+        input.addEventListener('keyup', function(event) {
+            console.log('Key released: ' + event.key);
+        });
+        input.addEventListener('keypress', function(event) {
+            console.log('Key pressed (keypress): ' + event.key);
+        });
+        input.addEventListener('change', function() {
+            console.log('Input value changed to: ' + input.value);
+        });
+        input.addEventListener('copy', function() {
+            console.log('Text copied: ' + input.value);
+        });
+        input.addEventListener('cut', function() {
+            console.log('Text cut: ' + input.value);
+        });
+        input.addEventListener('paste', function() {
+            console.log('Text pasted: ' + input.value);
+        });
+    </script>
+</body>
+</html>

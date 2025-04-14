@@ -15,9 +15,9 @@
 # Objects & Object Methods
 # Destructuring (Arrays, Objects)
 # Spread & Rest Operators  
-Template Literals
-JSON (Stringify & Parse)
-Events & Event Handling
+# Template Literals
+# JSON (Stringify & Parse)
+# Events & Event Handling
 Error Handling (try, catch, finally, throw)
 
 
