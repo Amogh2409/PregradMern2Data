@@ -13,8 +13,8 @@
 # Call, Apply, Bind
 # Arrays & Methods (map, filter, reduce, find, etc.)
 # Objects & Object Methods
-Destructuring (Arrays, Objects)
-Spread & Rest Operators  
+# Destructuring (Arrays, Objects)
+# Spread & Rest Operators  
 Template Literals
 JSON (Stringify & Parse)
 Events & Event Handling
