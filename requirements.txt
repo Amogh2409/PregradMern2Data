@@ -18,7 +18,7 @@
 # Template Literals
 # JSON (Stringify & Parse)
 # Events & Event Handling
-Error Handling (try, catch, finally, throw)
+# Error Handling (try, catch, finally, throw)
 
 
 after completing theese we will create 3 vanilla js projects to practice theese concepts

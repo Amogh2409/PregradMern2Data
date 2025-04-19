@@ -1,0 +1,14 @@
+A professional, scalable Smart Expense Tracker that:
+Works offline (localStorage)
+Has categories, filters, search
+Calculates totals & shows trends
+Uses JSON, array methods, events, and more
+And… follows clean code, modular structure, and interactive UI
+
+
+Features :
+        ADD/DELETE/EDIT transactions
+        filter by categories/date
+        search transactions
+        analysis
+        
