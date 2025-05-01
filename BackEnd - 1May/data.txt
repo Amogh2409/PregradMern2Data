@@ -1,0 +1,6 @@
+What is Backend
+Core Modules
+Node JS Scripts (Require)
+Creating a server using HTTP
+handling GET and POST request
+creating and reading file (fs)
