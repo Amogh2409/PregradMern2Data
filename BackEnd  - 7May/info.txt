@@ -1,0 +1,15 @@
+Express is a minimal and flexible Node js framework 
+
+featues - > server-side (easy to use API for routing, middleware, HTTP utilities)
+
+build on Node Js for fast server side development
+simplifies routing and middleware handling
+
+Supports buidling the Rest API
+
+
+
+It simplifies building web servers and APIs.
+Integrates seamlessly with Node.js.
+Offers extensive middleware support.
+Ideal for single-page applications and RESTful APIs.
