@@ -9,6 +9,19 @@ app.post('/', (req, res)=>{
     res.send(`Hello ${name}`); // Send a response with the name received in the request body
 });
 
+
+
+app.put('/update', (req, res) => {
+    const { name } = req.body; // Destructure the name property from the request body
+    res.send(`Updated ${name}`); // Send a response indicating that the name has been updated
+});
+
+
+app.delete('/delete/:id', (req, res) => {
+    const id = req.params.id;
+    res.send(`Deleted item ${id}`);
+  });
+
 app.listen(PORT, (error) => {
     if (error) {
         console.error('Error starting server:', error); // Log any errors that occur while starting the server

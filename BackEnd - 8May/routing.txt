@@ -1,0 +1,17 @@
+get, post, put, delete
+
+
+const express = require('express');
+const app = express();
+
+// GET request to the homepage
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+// POST request to /submit
+app.post('/submit', (req, res) => {
+  res.send('Form Submitted!');
+});
+
+app.listen(3000);
